@@ -9,6 +9,7 @@
     tools:context=".CalendarView">
 
     <TextView
+        android:layout_gravity="center_horizontal"
         android:id="@+id/txtTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,29 +17,28 @@
         android:textColor="#FFF"
         android:textAlignment="center"
         android:textSize="25sp"
-        android:layout_marginLeft="105dp"
-        android:layout_marginRight="105dp"
+
         android:layout_marginTop="48dp"
         android:gravity="center_horizontal" />
     <LinearLayout
+        android:layout_gravity="center_horizontal"
         android:background="#FFF"
         android:layout_marginTop="48dp"
-        android:layout_marginLeft="44dp"
         android:layout_width="300dp"
         android:layout_height="wrap_content">
 
         <CalendarView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="320dp">
 
         </CalendarView>
     </LinearLayout>
     <Button
-        android:layout_marginTop="34dp"
-        android:layout_marginLeft="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
         android:text="Guardar"
-        android:layout_paddingLeft="20dp"
-        android:layout_paddingRight="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
