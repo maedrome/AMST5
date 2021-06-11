@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AMST5">
         <activity android:name=".webviewActivity">
+        <activity android:name=".CalendarView"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
