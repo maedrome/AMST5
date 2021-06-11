@@ -1,7 +1,7 @@
 package com.example.amst5;
 
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.github.mikephil.charting.charts.BarChart;
