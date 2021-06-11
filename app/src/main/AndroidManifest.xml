@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AMST5">
+        <activity android:name=".MapActivity"></activity>
         <activity android:name=".webviewActivity">
         <activity android:name=".CalendarView"></activity>
         <activity android:name=".MainActivity">
